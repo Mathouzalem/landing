@@ -1,0 +1,38 @@
+.container {
+  width: 900px;
+  margin: auto;
+}
+
+.container-cards h2 {
+  text-align: center;
+  color: black;
+}
+
+.cards {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+  flex-wrap: wrap;
+}
+
+.card {
+  width: 200px;
+  border-radius: 4px;
+  background-color: rgb(255, 255, 255);
+  filter: drop-shadow(0 0 0.25rem rgb(196, 196, 196));
+  text-align: center;
+  padding: 20px;
+  border: 1px solid rgb(230,230,230);
+}
+
+.card img {
+  width: 150px;
+}
+
+.card h3 {
+  font-size: 16px;
+}
+
+.card p {
+  opacity: 0.5;
+}
